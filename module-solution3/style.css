@@ -1,1 +1,70 @@
-Hello Cousera
+#header-nav {
+  background-color: yellow;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  float: left;
+  margin-left: -13px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+ }
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: white;
+}
+#nav-list a:hover {
+  background: green;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid red;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (min-width: 768px){
+	#nav-list a {
+		display: none !important;
+	}
+}
+h2{
+	font-size: 2em;
+	color: red;
+	font-style: bold;
+}
+h3{
+	font-size: 1.4em;
+	color: red;
+	font-style: bold;
+}
+.cont{
+	background-color: gray;
+	margin: 2px;
+
+}
+.cont p, .cont h3{
+	padding: 10px;
+}
+
